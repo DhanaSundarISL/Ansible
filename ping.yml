@@ -1,0 +1,7 @@
+---
+- name: Ping remote host
+  hosts: all
+  gather_facts: yes
+  tasks:
+    - name: ping the remote host
+      ping:
